@@ -1,0 +1,44 @@
+INSERT INTO Freq1 SELECT frequency.docid, freqtrans.docid, SUM(frequency.count*freqtrans.count)
+FROM frequency, freqtrans
+WHERE frequency.term = freqtrans.term
+GROUP BY frequency.docid, freqtrans.docid;
+
+INSERT INTO Freq2 SELECT frequency.docid, freqtrans.docid, SUM(frequency.count*freqtrans.count)
+FROM frequency, freqtrans
+WHERE frequency.term = freqtrans.term AND frequency.docid = "10080_txt_crude"
+                                      AND freqtrans.docid = "7035_txt_earn"
+GROUP BY frequency.docid, freqtrans.docid;
+
+
+INSERT INTO Freq2 SELECT frequency.docid, freqtrans.docid, SUM(frequency.count*freqtrans.count)
+FROM frequency, freqtrans
+WHERE frequency.term = freqtrans.term AND frequency.docid = "10080_txt_crude"
+                                      AND freqtrans.docid = "7035_txt_earn"
+GROUP BY frequency.docid, freqtrans.docid;
+
+
+INSERT INTO Sim4 SELECT Freq4.docid, Freq4trans.docid, SUM(Freq4.count*Freq4trans.count)
+FROM Freq4, Freq4trans
+WHERE Freq4.term = Freq4trans.term AND Freq4.docid = "q" 
+                                      
+GROUP BY Freq4.docid, Freq4trans.docid;
+
+CREATE TABLE Sim4 (
+docid1 varchar(255),
+docid2 varchar(255),
+similarity int
+);
+
+CREATE TABLE Freq4trans (
+docid varchar(255),
+term varchar(255),
+count int
+);
+
+SELECT * FROM frequency
+UNION
+SELECT 'q' as docid, 'washington' as term, 1 as count 
+UNION
+SELECT 'q' as docid, 'taxes' as term, 1 as count
+UNION 
+SELECT 'q' as docid, 'treasury' as term, 1 as count

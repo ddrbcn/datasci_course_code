@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html class="supports-svg" xmlns:fb="http://ogp.me/ns/fb#" itemtype="http://schema.org"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7"><meta name="fragment" content="!"><meta name="robots" content="NOODP"><meta charset="utf-8"><meta property="og:title" content="Coursera"><meta property="og:type" content="website"><meta property="og:image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta property="og:url" content="https://www.coursera.org/quiz/attempt?quiz_id=273"><meta property="og:site_name" content="Coursera"><meta property="og:locale" content="en_US"><meta property="og:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta property="fb:admins" content="727836538,4807654"><meta property="fb:app_id" content="274998519252278"><meta name="twitter:site" content="Coursera"><meta name="twitter:app:name:iphone" content="Coursera"><meta name="twitter:app:name:ipad" content="Coursera"><meta name="twitter:app:name:googleplay" content="Coursera"><meta name="twitter:app:id:iphone" content="id736535961"><meta name="twitter:app:id:ipad" content="id736535961"><meta name="twitter:app:id:googleplay" content="org.coursera.android"><meta name="description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta name="apple-itunes-app" content="app-id=736535961"><title>Coursera</title>    <link href="assgmt5_files/spark.css" rel="stylesheet" type="text/css">
+      <link href="assgmt5_files/course.css" rel="stylesheet" type="text/css">
+    <link href="https://spark-public.s3.amazonaws.com/datasci/static/images/favicon.ico" rel="icon">
+<script src="assgmt5_files/ga.js" async="" type="text/javascript"></script><script src="assgmt5_files/MathJax.js" type="text/javascript"></script><script src="assgmt5_files/routes.js" data-requiremodule="pages/spark/routes" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><meta content="summary" name="twitter:card"><meta content="Coursera" name="twitter:title"><meta content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits." name="twitter:description"><meta content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png" name="twitter:image:src"><script src="assgmt5_files/204.js" data-requiremodule="js/lib/204" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/student-page_002.js" data-requiremodule="pages/spark/views/template/student-page" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/student-page_003.js" data-requiremodule="pages/spark/views/template/student-page.html" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/sparkSurveyQuestionsSessionModel.js" data-requiremodule="bundles/assess/assessmentTypes/sparkSurveyQuestions/sparkSurveyQuestionsSessionModel" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/sessionModel.js" data-requiremodule="bundles/assess/assessmentTypes/quickQuestions/sessionModel" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/student-page.js" data-requiremodule="pages/spark/views/template/nls/student-page" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/SessionModel.js" data-requiremodule="bundles/assess/assessmentTypes/SessionModel" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/QuestionCollection.js" data-requiremodule="bundles/assess/framework/QuestionCollection" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/QuestionModel.js" data-requiremodule="bundles/assess/framework/QuestionModel" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/backbone.js" data-requiremodule="bundles/assess/lib/backbone.hascollections" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/underscore.js" data-requiremodule="js/lib/underscore.extend" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/header_003.js" data-requiremodule="pages/spark/views/template/header" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/sidebar_003.js" data-requiremodule="pages/spark/views/template/sidebar" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/readme.js" data-requiremodule="js/lib/readme" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/header_002.js" data-requiremodule="pages/spark/views/template/header.html" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/LearnerStoriesCollection.js" data-requiremodule="pages/analytics/models/LearnerStoriesCollection" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/assessApi.js" data-requiremodule="pages/spark-survey/assessApi" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/sidebar_002.js" data-requiremodule="pages/spark/views/template/sidebar.html" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/signature_track.js" data-requiremodule="spark/app/signature/js/signature_track" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/HelpCenterLinks.js" data-requiremodule="pages/help-center/data/HelpCenterLinks" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/header.js" data-requiremodule="pages/spark/views/template/nls/header" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/sidebar.js" data-requiremodule="pages/spark/views/template/nls/sidebar" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/LearnerStoryModel.js" data-requiremodule="pages/analytics/models/LearnerStoryModel" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/signatureTrackLastChanceModal.js" data-requiremodule="spark/app/signature/js/signatureTrackLastChanceModal.html" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/flexjoinLastChanceModal.js" data-requiremodule="spark/app/signature/js/flexjoinLastChanceModal.html" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/util.js" data-requiremodule="js/lib/util" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="assgmt5_files/path.js" data-requiremodule="js/lib/path" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -5px 0 0 0; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style></head><body><div style="display: none;" id="MathJax_Message"></div><div id="fb-root"></div><div id="spark-help" class="hide"></div><a href="https://courserahelp.zendesk.com/hc/requests/new" target="_blank"><div style="z-index: 1" data-networkprioritysupportwidget="" role="button" class="helpwidget-tab hide">Premium Support</div></a><!-- - track IE8 and less browser for eventing purposes--><!--[if lte IE 8]><script>window._204 = window._204 || [];
+window._gaq = window._gaq || [];
+window._gaq.push(
+    ['_setAccount', 'UA-28377374-1'],
+    ['_setDomainName', window.location.hostname],
+    ['_setAllowLinker', true],
+    ['_trackPageview', window.location.pathname]);
+window._204.push(
+  ['client', 'home'],
+  {key:"pageview", value:window.location.pathname});</script><script src="https://dw0ugk4msqulk.cloudfront.net/cf64cc5e6b3187748316c5b9dbd5310dd9f2ccb6/js/lib/204.js"></script><script src="https://ssl.google-analytics.com/ga.js"></script><![endif]--><div id="fb-root"></div><div id="origami" data-js="origami"><div><div><div class="coursera-page"><div class="coursera-header" role="menubar"><div class="hidden">This page features MathJax technology to render mathematical formulae.
+If you are using a screen reader, please visit <a href="http://www.dessci.com/en/products/mathplayer/">MathPlayer</a> to download the plugin for your browser. Please note that this is an Internet Explorer-only plugin at this time.</div><h1 class="hidden">Introduction to Data Science</h1><!-- UNTIL dashboard announcement expires 2014-12-01 (then delete this code)--><div role="banner" class="course-topbar container-fluid"><div class="row-fluid"><div class="span3"><a href="https://www.coursera.org/" data-if-linkable="add-referrer" class="course-topbar-logo"></a></div><div style="float:right;" class="course-topbar-nav-container span9"><h2 class="hidden">Top Navigation Bar</h2><ul class="course-topbar-nav-list"><li class="course-topbar-nav-list-item"><a href="https://www.coursera.org/courses" data-if-linkable="add-referrer">Courses</a></li><li tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-topbar-my" data-popup="#course-topbar-my" data-popup-bind-open="mouseenter" data-popup-close="data-popup-close" style="cursor:pointer;" data-popup-direction="se" class="course-topbar-nav-list-item"><a data-user-id="5415300">Didier Domínguez Herrera<i class="icon-caret-down"></i></a></li></ul></div></div><div id="course-topbar-aboutus" class="course-topbar-sublist"><a href="https://www.coursera.org//about/" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">About Us</a><a href="https://www.coursera.org//about/careers" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Careers</a><a href="https://www.coursera.org//about/people" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">People</a><a href="https://www.coursera.org//about/contact" target="_new" data-if-linkable="add-referrer" class="internal-about course-topbar-sublist-item">Contact Us</a></div><div id="course-topbar-my" class="course-topbar-sublist"><a data-popup-close="data-popup-close" href="https://www.coursera.org/" target="_new" class="course-topbar-sublist-item">My Courses</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/profile" target="_new" class="course-topbar-sublist-item">Profile</a><a data-popup-close="data-popup-close" href="https://www.coursera.org/account/accomplishments" target="_new" class="course-topbar-sublist-item">Course Records</a><a href="https://www.coursera.org/account/settings" target="_new" class="course-topbar-sublist-item">Settings</a><a href="https://class.coursera.org/datasci-002/class/preferences" class="course-topbar-sublist-item">Course Preferences</a><a href="https://class.coursera.org/datasci-002/auth/logout" class="course-topbar-sublist-item">Sign Out</a></div></div><div class="course-topbanner-wrapper"><div class="course-topbanner"><div class="course-topbanner-university-logo"><a href="https://www.coursera.org/uw" target="_blank" data-if-linkable="add-referrer" title="https://www.coursera.org/uw" class="coursera-university-color"><img src="assgmt5_files/university_logo.png" alt="uw"></a></div><h1 class="course-topbanner-header"><a href="https://class.coursera.org/datasci-002/" data-if-linkable="modal-lock" class="course-topbanner-name coursera-university-color">Introduction to Data Science</a><br><span style="" class="course-topbanner-instructor">by Bill Howe</span></h1></div></div></div><div style="position:relative;" class="container-fluid"><div class="row-fluid"><div id="course-page-sidebar" role="navigation"><div class="coursera-sidebar" role="menubar"><div id="course-page-sidebar" role="navigation"><div class="course-navbar-container"><a href="https://class.coursera.org/datasci-002" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_index"><img src="assgmt5_files/logo.png" style="width: 205px;height: 116px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);" alt="Course Home Page"></a><div data-coursera-course-search-nav-widget="data-coursera-course-search-nav-widget" class="input-append course-search-nav-box"><form method="get" action="/datasci-002/class/search" data-js-search-form="data-js-search-form" class="form-inline minimized-search"><label for="course-search-nav-input" class="accessible-text-for-reader">Search this course</label><input id="course-search-nav-input" name="q" data-js-search-input="data-js-search-input" type="text">&nbsp;<button type="submit" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="search" class="btn icon-search"><span class="accessible-text-for-reader">Search</span></button></form></div><h2 class="hidden">Side Navigation Bar</h2><ul class="course-navbar-list"><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/class/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Home" class="coursera-university-color"><span>Home </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/lecture/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Video_Lectures" class="coursera-university-color"><span>Video Lectures </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/forum/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Discussion_Forums" class="coursera-university-color"><span>Discussion Forums </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/assignment/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Programming_Assignments" class="coursera-university-color"><span>Programming Assignments </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/quiz/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Quizzes" class="coursera-university-color"><span>Quizzes </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/human_grading/index" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Peer_Assessments" class="coursera-university-color"><span>Peer Assessments </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/wiki/OptionalRealWorldProject" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Optional_Real-World_Project" class="coursera-university-color"><span>Optional Real-World Project </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/wiki/syllabus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Syllabus" class="coursera-university-color"><span>Syllabus </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/wiki/courselogistics" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Course_Logistics" class="coursera-university-color"><span>Course Logistics </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/wiki/ClassVirtualMachine" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Class_Virtual_Machine" class="coursera-university-color"><span>Class Virtual Machine </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/wiki/GithubInstructions" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Github_Instructions" class="coursera-university-color"><span>Github Instructions </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/wiki/PythonResources" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Python_Resources" class="coursera-university-color"><span>Python Resources </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/wiki/awssetup" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_AWS_Setup" class="coursera-university-color"><span>AWS Setup </span><span></span></a></li><li class="course-navbar-item"></li><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/quiz/index?quiz_type=survey" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_Surveys" class="coursera-university-color"><span>Surveys </span><span></span></a></li><li class="course-navbar-item"><a href="https://class.coursera.org/datasci-002/wiki/aboutus" data-if-linkable="modal-lock,gray,lock-icon" data-ab-user-convert-for="honorcode_to_welcome2" data-ab-user-convert="navclick_About_Us" class="coursera-university-color"><span>About Us </span><span></span></a></li></ul><ul style="list-style-type:none;margin-left: 10px;"><li><a href="https://courserahelp.zendesk.com/" target="_blank" title="Open help articles in new window" class="coursera-university-color"><i class="icon-question-sign"></i>Help Articles</a></li></ul><ul style="list-style-type:none;margin-left: 10px;"><li><a href="https://class.coursera.org/datasci-002/forum/list?forum_id=10000&amp;url=https%3A%2F%2Fclass.coursera.org%2Fdatasci-002%2Fquiz%2Fattempt%3Fquiz_id%3D273" class="coursera-university-color"><i class="icon-comments"></i>Course Materials Errors</a></li><li><a href="https://class.coursera.org/datasci-002/forum/list?forum_id=10001&amp;url=https%3A%2F%2Fclass.coursera.org%2Fdatasci-002%2Fquiz%2Fattempt%3Fquiz_id%3D273" class="coursera-university-color"><i class="icon-comments"></i>Technical Issues</a></li></ul></div></div></div></div><div id="course-page-content" role="main"><div style="display: block;" id="spark" class="hide">
+
+<h2 class="course-page-header">
+  <span>
+R Assignment: Classification of Ocean Microbes  </span>
+  
+  <a class="coursera-reporter-link" title="Click here if you're experiencing technical problems or found errors in the course materials." target="_blank" href="https://class.coursera.org/datasci-002/help/quizzes?url=https%3A%2F%2Fclass.coursera.org%2Fdatasci-002%2Fquiz%2Fattempt%3Fquiz_id%3D273">
+     Help
+  </a>
+</h2>
+
+
+<a data-coursera-admin-helpwidget-link="" rel="help" href="https://class.coursera.org/mooc/help/quiz" title="Quiz documentation" style="display:none;">Learn more</a>
+
+<div class="course-quiz-attempt-warning-message alert alert-error">
+    <p><strong>Warning: </strong> The hard deadline has passed. You can attempt it, but  <b>you will not get credit for it</b>.  You are welcome to try it as a learning exercise.</p>
+</div>
+
+
+
+
+
+
+
+
+
+            <form method="post" id="quiz_form" accept-charset="UTF-8">
+    
+        <div class="course-quiz-preamble">
+        
+<p>In this assignment, you will be working with data from the SeaFlow environmental flow cytometry instrument.</p>
+
+<p>A flow cytometer delivers a flow of particles through capilliary.  By
+ shining lasers of different wavelengths and measuring the absorption 
+and refraction patterns, you can determine how large the particle is and
+ some information about its color and other properties, allowing you to 
+detect it.</p>
+
+<p>The technology was developed for medical applciations, where the 
+particles were potential pathogens in, say, serum, and the goal was to 
+give a diagnosis.  But the technology was adapted for use in 
+environmental science to understand microbial population profiles.</p>
+
+<p>The SeaFlow instrument, developed by the <a href="http://armbrustlab.ocean.washington.edu/">Armbrust Lab</a>
+ at the University of Washington, is unique in that it is deployed on 
+research vessels and takes continuous measurements of population 
+profiles in the open ocean.</p>
+
+<p>The scale of the data can be quite large, and is expected to grow 
+significantly: A two-week cruise from one vessel can generate hundreds 
+of gigabytes per day, and the vision is to deploy one of these 
+instruments on not only research vessels but the commercial shipping 
+fleet as well.</p>
+
+<p>While there are a number of challenging analytics tasks associated 
+with this data, a central task is classification of particles.  Based on
+ the optical measurements of the particle, it can be identified as one 
+of several populations.</p>
+
+<h3>Configuring R</h3>
+<p>
+A useful thread in the discussion forum points out two important items 
+to get R configured properly on the class virtual machine:
+</p><ol>
+<li>The need to run Rscript setup.r as sudo Rscript setup.r to avoid permissions problems</li>
+
+<li>The need to setup ~/.Rprofile to contain the following, so that a CRAN mirror will be selected:
+
+<pre>local({r &lt;- getOption("repos"); 
+       r["CRAN"] &lt;- "http://cran.r-project.org"; options(repos=r)})
+</pre>
+</li>
+</ol>
+<p></p>
+
+<h3>Dataset</h3>
+
+<p>You are provided a dataset that represents a 21 minute sample from the vessel in a file <code>seaflow_21min.csv</code>.
+  This sample has been pre-processed to remove the calibration "beads" 
+that are passed through the system for monitoring, as well as some other
+ particle types.</p>
+
+<p>The columns of this dataset are as follows:</p>
+
+<pre> file_id, time, cell_id, d1, d2, fsc_small, fsc_perp, fsc_big, pe, chl_small, chl_big, pop     
+</pre>
+
+<ul>
+<li>file_id: The data arrives in files, where each file represents a 
+three-minute window; this field represents which file the data came 
+from.  The number is ordered by time, but is otherwise not significant.</li>
+
+<li>time: This is an integer representing the time the particle passed 
+through the instrument. Many particles may arrive at the same time; time
+ is not a key for this relation.</li>
+
+<li>cell_id: A unique identifier for each cell WITHIN a file.  (file_id, cell_id) is a key for this relation.</li>
+
+<li>d1, d2: Intensity of light at the two main sensors, oriented 
+perpendicularly.  These sensors are primarily used to determine whether 
+the particles are properly centered in the stream. Used primarily in 
+preprocesssing; they are unlikely to be useful for classification.</li>
+
+<li>fsc_small, fsc_perp, fsc_big: Forward scatter small, perpendicular, 
+and big.  These values help distingish different sizes of particles.</li>
+
+<li>pe: A measurement of phycoerythrin fluorescence, which is related to
+ the wavelength associated with an orange color in microorganisms</li>
+
+<li>chl_small, chl_big: Measurements related to the wavelength of light corresponding to chlorophyll.</li>
+
+<li>pop: This is the class label assigned by the clustering mechanism 
+used in the production system.  It can be considered "ground truth" for 
+the purposes of the assignment, but note that there are particles that 
+cannot be unambiguously classified, so you should not aim for 100% 
+accuracy.  The values in this column are crypto, nano, pico, synecho, 
+and ultra</li>
+</ul>
+
+<h3>Overview</h3>
+
+<p>You will work with the dataset in R, using and evaluating a few 
+different classification methods.  You will not turn in the code itself;
+ you will answer questions about the data and methods that (hopefully) 
+demonstrate that you have written correct code.  As usual, we will tend 
+not to provide specific syntax; you will look up the appropriate 
+documentation and experiment with the language to elicit the correct 
+answer.  That said, learning R as a programming language is not a goal 
+of this assignment (or this course) -- there are plenty of courses that 
+aim to teach the use of R.  The goal of this assignment is to use R to 
+experiment with a real dataset -- including its idiosyncrasies -- and to
+ consider the strengths and weaknesses of a few popular methods for 
+supervised learning.</p>
+
+<p>If you wish to follow a tutorial in R, there are many to choose from, but you might try <a href="http://www.cyclismo.org/tutorial/R">this one</a>.</p>
+
+<p>First thing you should do, as always, is do a git pull to fetch the latest version of the course repository.  The file <code>seaflow_21min.csv</code> is in the repository.</p> 
+
+<p>To install the necessary packages in your system, you can run the script <code>setup.r</code> as follows:</p>
+<pre>$ Rscript setup.r
+</pre>
+
+<p>Alternatively, you can just install the packages yourself; open the setup script to see which ones you need.</p>
+
+
+<h3>Step 1: Read and summarize the data</h3>
+
+<p>Using R, read the file <code>seaflow_21min.csv</code> and get the overall counts for each category of particle. You may consider using the functions <code>read.csv</code> and <code>summary</code>.</p>
+
+<p>Answer Questions 1 and 2.</p>
+
+
+<h3>Step 2: Split the data into test and training sets</h3>
+
+Divide the data into two equal subsets, one for training and one for 
+testing.  Make sure to divide the data in an unbiased manner.
+
+<p>You might consider using either the <code>createDataPartition</code> function or the <code>sample</code> function, although there are many ways to achieve the goal.</p>
+
+<p>Answer Question 3.</p>
+
+
+
+<h3>Step 3: Plot the data</h3>
+
+<p>Plot <code>pe</code> against <code>chl_small</code>	 and color by <code>pop</code></p>
+
+<p>I recommend using the function <code>ggplot</code> in the library <code>ggpplot2</code> rather than using base R functions, but this is not required.</p>
+
+<p>Answer Question 4.</p> 
+
+
+<h3>Step 4: Train a decision tree.</h3>
+
+<p>Install the rpart library if you do not have it, and load the library.</p>
+
+<p>Many statistical models in R provide an interface of the form
+</p><pre>model &lt;- train(formula, dataframe)
+</pre>
+<p></p>
+
+<p>You can then use the <code>model</code> object to make predictions by passing it to the <code>predict</code> function.</p>
+
+<p>A formula object describes the relationship between the independent 
+variables and the response variable, and can be expressed with the 
+syntax
+
+</p><pre>response ~ var1 + var2 + var3</pre>
+
+and used with the <code>formula</code> function to construct the formula object itself:
+<pre>fol &lt;- formula(response ~ var1 + var2 + var3)
+</pre>
+<p></p>
+
+<p>The rpart library uses this convention.  Assuming your training data is in a data frame called <code>training</code> and you have constructed a formula objec tcalled <code>fol</code>,
+ you can construct a decision tree using the following syntax (included 
+here to avoid you struggling with a couple of unusual aspects of R):</p>
+
+<pre>model &lt;- rpart(fol, method="class", data=training)
+</pre> 
+
+<p>Train a tree as a function of the sensor measurements: fsc_small + fsc_perp + fsc_big + pe + chl_big + chl_small</p>
+
+<p>Print the model object using the print function <code>print(model)</code></p>
+
+<p>The output is a set of decision nodes, one node per line.  Each line 
+is indented indicating the height of the tree.  Here is a bogus example 
+of a tree:</p>
+
+<pre> 1) root 33456 22345 nano (0.0016 0.17 0.29 0.25 0.28)  
+   2) chl_small&lt; 31000 26238 15772 pico (0 0.22 0.4 3.8e-05 0.38)  
+     4) fsc_perp&lt; 2040 11430  1913 pico (0 8.7e-05 0.83 8.7e-05 0.17) *
+       10) chl_small&gt;=12000 7065   628 nano (0 0.88 0 0 0.12) *
+       11) chl_small&lt; 12000 9000  2232 ultra (0 0.13 0.097 0 0.77) *
+     5) fsc_perp&gt;=2040 14808  5500 ultra (0 0.39 0.064 0 0.55)  
+   3) chl_small&gt;=31000 9933   780 synecho (0.0058 0.054 0.0044 0.92 0.014)  
+     6) pe&gt;=17532 681   156 nano (0.085 0.77 0 0.069 0.075) *
+     7) pe&lt; 17532 9252   146 synecho (0 0.0014 0.0048 0.98 0.0096) *
+</pre>
+
+<p>To make a prediction, walk down the tree applying the predicates to 
+determine which branch to take.  For example, in this bogus tree, a 
+particle with chl_small=25000 and fsc_perp=1000 would take branch 2, 
+branch 4, then branch 10, and be classified as nano.</p>
+
+
+<p>Answer Questions 5, 6, 7.</p> 
+
+
+<h3>Step 5: Evaluate the decision tree on the test data.</h3>
+
+<p>Use the <code>predict</code> function to generate predictions on your
+ test data.  Then, compare these predictions with the class labels in 
+the test data itself.</p>
+
+<p>In R, if you write <code>A==B</code> and <code>A</code> and <code>B</code>
+ are vectors, the result is a vector of 1s and 0s.  The sum of this 
+vector will be the number of correct predictions.  Dividing this sum by 
+the size of the test dataset will give you the accuracy.</p>
+
+<p>Answer Question 8.</p> 
+
+
+<h3>Step 6: Build and evaluate a random forest.</h3>
+
+<p>Load the <code>randomForest</code> library, then call <code>randomForest</code> using the formula object and the data, as you did to build a single tree:</p>
+<pre>library(randomforest)
+model &lt;- randomForest(fol, data=trainingdata)
+</pre>
+
+<p>Evaluate this model on the test data the same way you did for the tree.</p>
+
+<p>Answer Question 9.</p> 
+
+<p>Random forests can automatically generate an estimate of variable 
+importance during training by permuting the values in a given variable 
+and measuring the effect on classification.  If scrambling the values 
+has little effect on the model's ability to make predictions, then the 
+variable must not be very important.</p>
+
+<p>A random forest can obtain another estimate of variable importance 
+based on the Gini impurity that we discussed in the lecture.  The 
+function <code>importance(model)</code> prints the mean decrease in gini
+ importance for each variable.  The higher the number, the more the gini
+ impurity score decreases by branching on this variable, indicating that
+ the variable is more important.</p>
+
+<p>Call this function and answer Question 10.</p> 
+
+
+<h3>Step 7: Train a support vector machine model and compare results. </h3>
+
+<p>Use the <code>e1071</code> library and call <code>model &lt;- svm(fol, data=trainingdata)</code>.
+
+
+</p><p>Answer Question 11.</p> 
+
+
+<h3>Step 8: Construct confusion matrices</h3>
+
+<p>Use the <code>table</code> function to generate a confusion matrix 
+for each of your three methods. Generate predictions using the predict 
+function, then call the table functions like this:</p>
+
+<pre>table(pred = predictions, true = testingdata$pop)
+</pre>
+
+<p>Answer Question 12.</p> 
+
+
+<h3>Step 8: Sanity check the data</h3>
+
+<p>As a data scientist, you should never trust the data, especially if 
+you did not collect it yourself.  There is no such thing as clean data. 
+ You should always be trying to prove your results wrong by finding 
+problems with the data.  Richard Feynman calls it "bending over 
+backwards to show how you're maybe wrong."  This is even more critical 
+in data science, because almost by definition you are using someone 
+else's data that was collected for some other purpose rather than the 
+experiment you want to do.  So of course it's going to have problems.</p>
+
+<p>The measurements in this dataset are all supposed to be continuous 
+(fsc_small, fsc_perp, fsc_big, pe, chl_small, chl_big), but one is not. 
+ Using plots or R code, figure out which field is corrupted.</p>
+
+<p>Answer Question 13</p>
+
+<p>There is more subtle issue with data as well.  Plot time vs. chl_big,
+ and you will notice a band of the data looks out of place.  This band 
+corresponds to data from a particular file for which the sensor may have
+ been miscalibrated.  Remove this data from the dataset by filtering out
+ all data associated with file_id 208, then repeat the experiment for 
+all three methods, making sure to split the dataset into training and 
+test sets after filtering out the bad data.</p>
+
+<p>Answer Question 14</p>
+
+    </div>
+    
+            
+<div class="course-quiz-honor-code">
+    <label class="checkbox">
+        <input type="checkbox">
+        In accordance with the Coursera Honor Code, I (Didier Domínguez 
+Herrera) certify that the answers here are my own work.        <span class="course-quiz-honor-code-thanks" style="display:none;">Thank you!</span>
+    </label>
+
+</div>
+    
+    <div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 1</h3>
+<div style="float:none;width:100%"> <div dir="auto" class="course-quiz-question-text">How many particles labeled "synecho" are in the file provided?</div>
+</div>
+<label for="gensym_54c563f72a09b" class="hidden">Answer for Question 1</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_54c563f72a09b" class="course-quiz-input" name="answer[5149a73d895aefe753395cc352980bd3][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 2</h3>
+<div style="float:none;width:100%"> <div dir="auto" class="course-quiz-question-text">What is the 3rd Quantile of the field fsc_small? (the summary function computes this on your behalf)</div>
+</div>
+<label for="gensym_54c563f72b9a3" class="hidden">Answer for Question 2</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_54c563f72b9a3" class="course-quiz-input" name="answer[5a7507a4a20a2708c276489910de7862][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 3</h3>
+<div style="float:none;width:100%"> <div dir="auto" class="course-quiz-question-text">What is the mean of the variable "time" for your training set? </div>
+</div>
+<label for="gensym_54c563f72cff1" class="hidden">Answer for Question 3</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_54c563f72cff1" class="course-quiz-input" name="answer[400dd66038444012d324d8ab1dbdb146][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 4</h3>
+<div dir="auto" class="course-quiz-question-text">In the plot of pe vs. 
+chl_small, the particles labeled ultra should appear to be somewhat 
+"mixed" with two other populations of particles.  Which two populations?</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[726e18303a200de06d4e9afcb35eb743][]" id="gensym_54c563f72ffb4" value="8a6b2d47302f6e04fbd0e0e59c2b3ed5" type="checkbox"><label for="gensym_54c563f72ffb4" style="cursor:pointer;">synecho</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[726e18303a200de06d4e9afcb35eb743][]" id="gensym_54c563f7305b4" value="180352580663d8a6be881c07d517937b" type="checkbox"><label for="gensym_54c563f7305b4" style="cursor:pointer;">crypto</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[726e18303a200de06d4e9afcb35eb743][]" id="gensym_54c563f730ac0" value="862004a7839f03265204d04d3b728375" type="checkbox"><label for="gensym_54c563f730ac0" style="cursor:pointer;">nano</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[726e18303a200de06d4e9afcb35eb743][]" id="gensym_54c563f730ef8" value="faa04f30421ed022313b6515711a2348" type="checkbox"><label for="gensym_54c563f730ef8" style="cursor:pointer;">pico</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 5</h3>
+<div dir="auto" class="course-quiz-question-text">Use print(model) to 
+inspect your tree.  Which populations, if any, is your tree incapable of
+ recognizing?  (Which populations do not appear on any branch?)
+
+(It's possible, but very unlikely, that an incorrect answer to this 
+question is the result of improbable sampling.)
+
+Hint: Look</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[6eca86e765580ac07185d147e9ed614b][]" id="gensym_54c563f733129" value="744d4e3491eb6f576850925e414ea098" type="checkbox"><label for="gensym_54c563f733129" style="cursor:pointer;">pico</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[6eca86e765580ac07185d147e9ed614b][]" id="gensym_54c563f733a85" value="153e9f937bd6566fff5afac8f2691abc" type="checkbox"><label for="gensym_54c563f733a85" style="cursor:pointer;">ultra</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[6eca86e765580ac07185d147e9ed614b][]" id="gensym_54c563f7341b0" value="7180a86119628bd7fdc09563d3aac2e2" type="checkbox"><label for="gensym_54c563f7341b0" style="cursor:pointer;">nano</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[6eca86e765580ac07185d147e9ed614b][]" id="gensym_54c563f734802" value="7c54f78c0f4253a1a7bf8e18cebe4594" type="checkbox"><label for="gensym_54c563f734802" style="cursor:pointer;">crypto</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[6eca86e765580ac07185d147e9ed614b][]" id="gensym_54c563f734d2c" value="124cc0dacbdf147189ae0b697a72806c" type="checkbox"><label for="gensym_54c563f734d2c" style="cursor:pointer;">synecho</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 6</h3>
+<div style="float:none;width:100%"> <div dir="auto" class="course-quiz-question-text">Most
+ trees will include a node near the root that applies a rule to the pe 
+field, where particles with a value less than some threshold will 
+descend down one branch, and particles with a value greater than some 
+threshold will descend down a different branch.  
+
+If you look at the plot you created previously, you can verify that the 
+threshold used in the tree is evident visually.  
+
+What is the value of the threshold on the pe field learned in your 
+model?</div>
+</div>
+<label for="gensym_54c563f735ebb" class="hidden">Answer for Question 6</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_54c563f735ebb" class="course-quiz-input" name="answer[e2d543722303f24f5fb721c4ee712bfd][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 7</h3>
+<div dir="auto" class="course-quiz-question-text">Based on your decision tree, which variables appear to be most important in predicting the class population?</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[396c7fdbc0f53173adb787767f3951eb][]" id="gensym_54c563f739461" value="a995e0fe3ce59ac5f250dcb9dbe43342" type="checkbox"><label for="gensym_54c563f739461" style="cursor:pointer;">chl_small</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[396c7fdbc0f53173adb787767f3951eb][]" id="gensym_54c563f739938" value="ceefb9b6a5afb03b00c9a2623e7d4c6a" type="checkbox"><label for="gensym_54c563f739938" style="cursor:pointer;">fsc_small</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[396c7fdbc0f53173adb787767f3951eb][]" id="gensym_54c563f739d8e" value="fa900966aab706335464ac6c3bde0c08" type="checkbox"><label for="gensym_54c563f739d8e" style="cursor:pointer;">chl_big</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[396c7fdbc0f53173adb787767f3951eb][]" id="gensym_54c563f73a27c" value="1ccb356198bd68d400086ce23ab24514" type="checkbox"><label for="gensym_54c563f73a27c" style="cursor:pointer;">fsc_big</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[396c7fdbc0f53173adb787767f3951eb][]" id="gensym_54c563f73a86b" value="ef10956946c496e7c215d491e0291491" type="checkbox"><label for="gensym_54c563f73a86b" style="cursor:pointer;">pe</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[396c7fdbc0f53173adb787767f3951eb][]" id="gensym_54c563f73af1c" value="ac8922b37908d83b8ea275ad9cfc2d18" type="checkbox"><label for="gensym_54c563f73af1c" style="cursor:pointer;">fsc_perp</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 8</h3>
+<div style="float:none;width:100%"> <div dir="auto" class="course-quiz-question-text">How accurate was your decision tree on the test data?  Enter a number between 0 and 1.</div>
+</div>
+<label for="gensym_54c563f73c083" class="hidden">Answer for Question 8</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_54c563f73c083" class="course-quiz-input" name="answer[6630e0e06483a22634cef69808a53556][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 9</h3>
+<div style="float:none;width:100%"> <div dir="auto" class="course-quiz-question-text">What was the accuracy of your random forest model on the test data?  Enter a number between 0 and 1.</div>
+</div>
+<label for="gensym_54c563f73d9b0" class="hidden">Answer for Question 9</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_54c563f73d9b0" class="course-quiz-input" name="answer[f6d2e7fe40c170a774adfa063ad4f185][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 10</h3>
+<div dir="auto" class="course-quiz-question-text">After calling 
+importance(model), you should be able to determine which variables 
+appear to be most important in terms of the gini impurity measure.  
+Which ones are they?</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[3c14cbb075bd1e2fbeffbf23f8d6ac6d][]" id="gensym_54c563f7413b1" value="a9c1241f49307f22c8a6a0a8d4bf08ca" type="checkbox"><label for="gensym_54c563f7413b1" style="cursor:pointer;">fsc_small</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[3c14cbb075bd1e2fbeffbf23f8d6ac6d][]" id="gensym_54c563f741952" value="64338e80d033a56f05ca0f37d9bcaef0" type="checkbox"><label for="gensym_54c563f741952" style="cursor:pointer;">pe</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[3c14cbb075bd1e2fbeffbf23f8d6ac6d][]" id="gensym_54c563f741dcf" value="708f6afa7898d6ef8457736b8200e591" type="checkbox"><label for="gensym_54c563f741dcf" style="cursor:pointer;">fsc_perp</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[3c14cbb075bd1e2fbeffbf23f8d6ac6d][]" id="gensym_54c563f742267" value="004a83162385d10359ba5e36a71cc782" type="checkbox"><label for="gensym_54c563f742267" style="cursor:pointer;">chl_small</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[3c14cbb075bd1e2fbeffbf23f8d6ac6d][]" id="gensym_54c563f7426b0" value="439257054b49b3f1fa391980a7b48582" type="checkbox"><label for="gensym_54c563f7426b0" style="cursor:pointer;">fsc_big</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[3c14cbb075bd1e2fbeffbf23f8d6ac6d][]" id="gensym_54c563f742c17" value="ee1b86edb139fced2dfb4056bc129b44" type="checkbox"><label for="gensym_54c563f742c17" style="cursor:pointer;">chl_big</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 11</h3>
+<div style="float:none;width:100%"> <div dir="auto" class="course-quiz-question-text">What was the accuracy of your support vector machine model on the test data?  Enter a number between 0 and 1.</div>
+</div>
+<label for="gensym_54c563f743ad4" class="hidden">Answer for Question 11</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_54c563f743ad4" class="course-quiz-input" name="answer[78bac909a6737bca7d3b1e7661106e73][answer]"></textarea>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 12</h3>
+<div dir="auto" class="course-quiz-question-text">Construct a confusion 
+matrix for each of the three methods using the table function.   What 
+appears to be the most common error the models make? </div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[9e0d0bc155f389520b7dfb7906760217][]" id="gensym_54c563f746576" value="8016d3f718ce041f4058518a8a6ee1a4" type="radio"><label for="gensym_54c563f746576" style="cursor:pointer;">pico is mistaken for ultra</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[9e0d0bc155f389520b7dfb7906760217][]" id="gensym_54c563f746bee" value="ede8f264f86b4daf80caa11a297cb9f6" type="radio"><label for="gensym_54c563f746bee" style="cursor:pointer;">crypto is mistaken for ultra</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[9e0d0bc155f389520b7dfb7906760217][]" id="gensym_54c563f747141" value="4fbe2add62567af46f0cc4ff12108b02" type="radio"><label for="gensym_54c563f747141" style="cursor:pointer;">ultra is mistaken for nano</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[9e0d0bc155f389520b7dfb7906760217][]" id="gensym_54c563f747577" value="c0e2d1c93c31caab6fa9d1992da773bc" type="radio"><label for="gensym_54c563f747577" style="cursor:pointer;">synecho is mistaken for pico</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[9e0d0bc155f389520b7dfb7906760217][]" id="gensym_54c563f74799c" value="f9cfcf68d2535f932416d0d32e6a6dee" type="radio"><label for="gensym_54c563f74799c" style="cursor:pointer;">ultra is mistaken for pico</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[9e0d0bc155f389520b7dfb7906760217][]" id="gensym_54c563f747dd4" value="26e113c367c9eee3600a86a90f1b49bf" type="radio"><label for="gensym_54c563f747dd4" style="cursor:pointer;">nano is mistaken for ultra</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 13</h3>
+<div dir="auto" class="course-quiz-question-text">The variables in the 
+dataset were assumed to be continuous, but one of them takes on only a 
+few discrete values, suggesting a problem.  Which variable exhibits this
+ problem?</div>
+<div dir="auto" class="course-quiz-options">
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[d2f9809db5994f566bc719776ee5ac36][]" id="gensym_54c563f749e0c" value="751e8c4a037139b8bf1c1e65f7a66509" type="radio"><label for="gensym_54c563f749e0c" style="cursor:pointer;">fsc_small</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[d2f9809db5994f566bc719776ee5ac36][]" id="gensym_54c563f74a287" value="54b2e04a8858255faf4add6f8158ffb6" type="radio"><label for="gensym_54c563f74a287" style="cursor:pointer;">chl_big</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[d2f9809db5994f566bc719776ee5ac36][]" id="gensym_54c563f74a6df" value="48ddee255d4ff7f3de96022662c5b32f" type="radio"><label for="gensym_54c563f74a6df" style="cursor:pointer;">fsc_big</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[d2f9809db5994f566bc719776ee5ac36][]" id="gensym_54c563f74ab13" value="ac3cb63cac03f7ae0ee8d04cb3f3d977" type="radio"><label for="gensym_54c563f74ab13" style="cursor:pointer;">fsc_perp</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[d2f9809db5994f566bc719776ee5ac36][]" id="gensym_54c563f74af4c" value="8ee5b58c6aa5b6e5b2a976efe5ef1955" type="radio"><label for="gensym_54c563f74af4c" style="cursor:pointer;">pe</label>
+</div>
+<div class="course-quiz-option">
+<input dir="auto" class="course-quiz-input" name="answer[d2f9809db5994f566bc719776ee5ac36][]" id="gensym_54c563f74b39f" value="b9616474b2cdab0f81c493168371a32c" type="radio"><label for="gensym_54c563f74b39f" style="cursor:pointer;">chl_small</label>
+</div>
+</div>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 14</h3>
+<div style="float:none;width:100%"> <div dir="auto" class="course-quiz-question-text">After
+ removing data associated with file_id 208, what was the effect on the 
+accuracy of your svm model?  Enter a positive or negative number 
+representing the net change in accuracy, where a positive number 
+represents an improvement in accuracy and a negative number represents a
+ decrease in accuracy.</div>
+</div>
+<label for="gensym_54c563f74bf74" class="hidden">Answer for Question 14</label><div class="course-quiz-options"></div>
+<textarea dir="auto" id="gensym_54c563f74bf74" class="course-quiz-input" name="answer[ba14729e2d49ba2b96e4f5d0a18365d1][answer]"></textarea>
+</div>
+            
+<div class="course-quiz-honor-code">
+    <label class="checkbox">
+        <input type="checkbox">
+        In accordance with the Coursera Honor Code, I (Didier Domínguez 
+Herrera) certify that the answers here are my own work.        <span class="course-quiz-honor-code-thanks" style="display:none;">Thank you!</span>
+    </label>
+
+</div>
+    
+            <div class="course-quiz-submit-button-container">
+        <input name="__csrf-token" value="ZdXawoADj6R7j2B1Nzjz" type="hidden">
+        <input disabled="disabled" class="btn btn-success" name="submit_answers" value="Submit Answers" type="submit">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="btn btn-primary" name="save_answers" value="Save Answers" type="submit">
+
+        <div class="course-quiz-honor-code-status" style="margin-top: 10px;">You cannot submit your work until you agree to the Honor Code. Thanks!</div>
+
+    </div>
+    
+
+
+    </form>
+
+<script type="text/x-mathjax-config;executed=true">
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  
+  styleSheets: [],
+  styles: {},
+
+  jax: ["input/TeX"],
+  
+  extensions: ["tex2jax.js"],
+
+  preJax: null,
+  postJax: null,
+
+  preRemoveClass: "MathJax_Preview",
+
+  showProcessingMessages: true,
+
+  messageStyle: "none",
+  
+  displayAlign: "center",
+  displayIndent: "0em",
+  
+  delayStartupUntil: "none",
+
+  skipStartupTypeset: false,
+  
+  elements: [],
+  
+  tex2jax: {
+	    inlineMath: [
+	                 ['$$','$$'],      // uncomment this for standard TeX math delimiters
+	                 ['\\(','\\)']
+	                 ],
+
+	                 displayMath: [
+	                 ['\\[','\\]']
+	                 ],
+
+    skipTags: ["script","noscript","style","textarea","pre","code"],
+    ignoreClass: "tex2jax_ignore",
+    processClass: "tex2jax_process",
+    processEscapes: false,
+    processEnvironments: true,
+    preview: "TeX"
+    
+  },
+  
+  mml2jax: {
+    preview: "alttext"
+    
+  },
+  
+  jsMath2jax: {
+    preview: "TeX"
+    
+  },
+
+  TeX: {
+    TagSide: "right",
+    TagIndent: ".8em",
+    MultLineWidth: "85%",
+    Macros: {},
+
+    extensions: ["AMSmath.js", "AMSsymbols.js"]
+    
+  },
+
+  //============================================================================
+  //
+  //  These parameters control the MathML inupt jax.
+  //
+  MathML: {
+    //
+    //  This specifies whether to use TeX spacing or MathML spacing when the
+    //  HTML-CSS output jax is used.
+    //
+    useMathMLspacing: false
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the HTML-CSS output jax.
+  //
+  "HTML-CSS": {
+    
+    scale: 100,
+    
+    availableFonts: ["STIX","TeX"],
+    
+    preferredFont: "TeX",
+    
+    webFont: "TeX",
+    
+    imageFont: "TeX",
+    
+    undefinedFamily: "STIXGeneral,'Arial Unicode MS',serif",
+      
+    showMathMenu: true,
+
+    styles: {},
+    
+    tooltip: {
+      delayPost: 600,          // milliseconds delay before tooltip is posted after mouseover
+      delayClear: 600,         // milliseconds delay before tooltip is cleared after mouseout
+      offsetX: 10, offsetY: 5  // pixels to offset tooltip from mouse position
+    }
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the NativeMML output jax.
+  //
+  NativeMML: {
+
+    scale: 100,
+
+    showMathMenu: true,
+    showMathMenuMSIE: true,
+
+    styles: {}
+  },
+  
+  MathMenu: {
+    delay: 400,
+    
+    helpURL: "http://www.mathjax.org/help/user/",
+
+    showRenderer: true,
+    showFontMenu: false,
+    showContext:  false,
+
+    windowSettings: {
+      status: "no", toolbar: "no", locationbar: "no", menubar: "no",
+      directories: "no", personalbar: "no", resizable: "yes", scrollbars: "yes",
+      width: 100, height: 50
+    },
+    
+    styles: {}
+    
+  },
+
+  MMLorHTML: {
+    prefer: {
+      MSIE:    "MML",
+      Firefox: "HTML",
+      Opera:   "HTML",
+      other:   "HTML"
+    }
+  }
+});
+</script>
+</div></div></div></div></div><div class="coursera-footer"></div></div></div></div><!--[if gte IE 9]><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><![endif]-->
+<!--[if lte IE 8]><script>document.getElementById("coursera-loading-nojs").style.display = 'block';</script><![endif]-->
+<!--[if !IE]> --><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><!-- <![endif]--><script>if (/zh/i.test(window.localStorage ? localStorage.getItem('locale') : '') || '{{ locale }}') {
+  document.getElementById('get-browser-zh').style.display = 'block';
+}</script><!--[if !IE]> --><script>document.getElementById('coursera-loading-js').style.display = 'block';</script><!-- <![endif]-->
+    <script src="assgmt5_files/jquery.js"></script>
+      <script src="assgmt5_files/underscore_002.js"></script>
+      <script src="assgmt5_files/quiz_timer.js"></script>
+      <script src="assgmt5_files/get_query_parameters.js"></script>
+      <script src="assgmt5_files/quiz_attempt.js"></script>
+      <script src="assgmt5_files/latex_preview.js"></script>
+      <script src="assgmt5_files/db_class.js"></script>
+      <script src="assgmt5_files/initRunQuery.js"></script>
+      <script src="assgmt5_files/loadOrRefreshMathJax.js"></script>
+      <script src="assgmt5_files/grid_questions.js"></script>
+      <script src="assgmt5_files/quiz_error_box_dummy.js"></script>
+  <script src="assgmt5_files/require.js"></script><script data-baseurl="https://dw0ugk4msqulk.cloudfront.net/cf64cc5e6b3187748316c5b9dbd5310dd9f2ccb6/" data-version="cf64cc5e6b3187748316c5b9dbd5310dd9f2ccb6" data-timestamp="1421896112153" data-debug="0" data-locale="en" id="_require">if(document.getElementById('coursera-loading-js').style.display == 'block') {
+  (function(el) {
+     require.config({
+       //enforceDefine: true,
+       waitSeconds: 75,
+       baseUrl: el.getAttribute('data-baseurl'),
+       urlArgs: el.getAttribute('data-debug') == '1' ? 'v=' + el.getAttribute('data-timestamp') : '',
+       shim: {
+          'underscore': {
+             exports: '_'
+          },
+          'backbone': {
+             deps: ['underscore', 'jquery'],
+             exports: 'Backbone',
+             init: function(_, $) {
+               Backbone.$ = $;
+               return Backbone;
+             }
+          },
+          'pages/hg/thirdparty/js/backbone.marionette': {
+            deps: ['backbone']
+          },
+          'pages/hg/thirdparty/js/webshims/polyfiller': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/webshims/extras/mousepress': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/webshims/polyfiller']
+          },
+          'pages/hg/thirdparty/js/jquery.throttle': {
+            deps: ['jquery']
+          },
+          'js/lib/jquery.linkify': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/js/bootstrap/alert': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/bootstrap/transition']
+          },
+          'spark/core/js/jquery_ui': {
+            deps: ['jquery']
+          },
+          'spark/core/js/jquery.history': {
+            deps: ['jquery']
+          },
+          'js/lib/bootstrap.tooltip': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/transition': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/tab': {
+            deps: ['jquery']
+          },
+          'bundles/videojs/lib/video.4.3.0': {
+            exports: 'vjs'
+          }
+       },
+       paths: {
+          'q': 'js/vendor/q.v1-0-1',
+          'react-with-addons': 'js/vendor/react-with-addons.v0-12',
+          'jquery':                         'pages/spark/jquery',
+          'underscore':                     'js/vendor/underscore.v1-5-2',
+          'backbone':                       'js/vendor/backbone.v1-1-0',
+          'backbone.relational':            'js/lib/backbone.relational.0.8.6',
+          'i18n':                           'js/lib/i18n._t',
+          'css':                            'js/vendor/require.css.v0-1-2',
+          'memoize':                        'js/lib/require.memoize.v0-0-1',
+          'pages/spark/models/user.json':   'empty:',
+          'pages/spark/models/course.json': 'empty:',
+          'pages/spark/models/navbar.json': 'empty:'
+       },
+       callback: function() {
+                    require(['pages/spark/routes']);
+                },
+       config: {
+         i18n: {
+           locale: (window.localStorage ? localStorage.getItem('locale') : '') || el.getAttribute('data-locale')
+         }
+       }
+     });
+  })(document.getElementById('_require'));
+}
+</script><script>define('pages/spark/models/user.json', [], function(){
+      return JSON.parse("{\"id\":5415300,\"email_address\":\"didier.dominguez@gmail.com\",\"full_name\":\"Didier Dom\\u00ednguez Herrera\",\"locale\":null,\"timezone\":\"Europe\\\/Madrid\",\"access_group_id\":\"4\",\"registration_time\":\"1401300167\",\"last_access_time\":\"1422221890\",\"last_access_ip\":\"81.61.161.97\",\"signature_track_register_time\":\"0\",\"email_announcement\":\"1\",\"email_forum\":\"1\",\"in_signature_track\":\"0\",\"wishes_proctored_exam\":null,\"first_name\":\"Didier\",\"permissions\":[\"default\",\"allow_site_access\"],\"group\":\"Student\",\"anonymous\":false,\"forum_title\":\"Student\",\"signature_track_state\":1,\"verified_quizzes\":[],\"submitted_quizzes\":[\"21\",\"23\",\"29\",\"31\",\"35\",\"41\",\"71\",\"73\",\"83\",\"89\",\"91\",\"109\",\"119\",\"159\",\"167\",\"273\"],\"scheduled_proctored_exam\":null,\"last_chance_modal\":null,\"flexjoin_last_chance_modal\":null}");
+  });
+define('pages/spark/models/course.json', [], function(){
+      return JSON.parse("{\"id\":972772,\"isPrivate\":false,\"type\":\"public\",\"name\":\"Introduction to Data Science\",\"instructor\":\"Bill Howe\",\"sessionName\":\"datasci-002\",\"externalBaseURL\":\"https:\\\/\\\/www.coursera.org\\\/\",\"shortname\":\"datasci\",\"host\":\"https:\\\/\\\/www.coursera.org\\\/\",\"assetUnversionedLink\":\"https:\\\/\\\/dw0ugk4msqulk.cloudfront.net\\\/\",\"cheggID\":\"\",\"hasLTI\":true,\"badgevilleDomain\":\"\",\"linkable\":false,\"universityShortname\":\"uw\",\"signatureTrackStatus\":{\"signature_track_enabled\":0},\"courseURLs\":{\"log_in_link\":\"https:\\\/\\\/accounts.coursera.org\\\/signin?post_redirect=https%3A%2F%2Faccounts.coursera.org%2Fsignin%3Fuser_action%3Dclass%26course_id%3D972772%26post_redirect%3Dhttps%253A%252F%252Fclass.coursera.org%252Fdatasci-002%252Fauth%252Fauth_redirector%253Ftype%253Dlogin%2526subtype%253Dnormal%2526visiting%253D\",\"sign_up_link\":\"https:\\\/\\\/accounts.coursera.org\\\/signup?enroll_cid=972772&enroll_sn=datasci&enroll_n=Introduction to Data Science\",\"view_course_info_link\":\"https:\\\/\\\/www.coursera.org\\\/course\\\/datasci\",\"sign_up_link_cant_enroll\":\"https:\\\/\\\/accounts.coursera.org\\\/signup?post_redirect=https%3A%2F%2Fwww.coursera.org%2Fcourse%2Fdatasci\"},\"courseBase\":\"https:\\\/\\\/class.coursera.org\\\/datasci-002\\\/\",\"search\":true,\"hideWiki\":true,\"aceStartRegistrationDate\":\"Thu  1 Jan 1970  1:00 AM CET\",\"aceEndRegistrationDate\":\"Thu  1 Jan 1970  1:00 AM CET\",\"aceExamStartDate\":\"Thu  1 Jan 1970  1:00 AM CET\",\"aceExamEndDate\":\"Thu  1 Jan 1970  1:00 AM CET\",\"aceExamRules\":\"\",\"aceExamDuration\":\"\",\"aceBeforeExam\":false,\"aceAfterExam\":true,\"aceHours\":null,\"aceCreditType\":\"\",\"acePrice\":null,\"aceExamID\":null,\"aceEligible\":false,\"canRegisterForACE\":false,\"specialization\":null,\"supportForums\":true,\"textbooks\":\"\",\"inVideoQuizV2\":false,\"in_flexjoin\":0,\"honorCodeExtraText\":null,\"honorCodeCustomTitle\":\"\",\"honorCodeCustomButton\":\"\",\"studentAccessDisabled\":0,\"disableQQs\":false}");
+  });
+  define('pages/spark/models/navbar.json', [], function(){
+      return JSON.parse("{\"items\":[{\"name\":\"Home\",\"icon\":\"home\",\"link_type\":\"circuit\",\"link_data\":\"class:index\"},{\"name\":\"Video Lectures\",\"icon\":\"lecture\",\"link_type\":\"circuit\",\"link_data\":\"lecture:index\"},{\"name\":\"Discussion Forums\",\"icon\":\"forum\",\"link_type\":\"circuit\",\"link_data\":\"forum:index\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Programming Assignments\",\"icon\":\"assignment\",\"link_type\":\"circuit\",\"link_data\":\"assignment:index\"},{\"name\":\"Quizzes\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index\"},{\"name\":\"Peer Assessments\",\"icon\":\"assignment\",\"link_type\":\"circuit\",\"link_data\":\"human_grading:index\"},{\"name\":\"Optional Real-World Project\",\"icon\":\"\",\"link_type\":\"wiki\",\"link_data\":\"OptionalRealWorldProject\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Syllabus\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"syllabus\"},{\"name\":\"Course Logistics\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"courselogistics\"},{\"name\":\"Class Virtual Machine\",\"icon\":\"\",\"link_type\":\"wiki\",\"link_data\":\"ClassVirtualMachine\"},{\"name\":\"Github Instructions\",\"icon\":\"\",\"link_type\":\"wiki\",\"link_data\":\"GithubInstructions\"},{\"name\":\"Python Resources\",\"icon\":\"\",\"link_type\":\"wiki\",\"link_data\":\"PythonResources\"},{\"name\":\"AWS Setup\",\"icon\":\"\",\"link_type\":\"wiki\",\"link_data\":\"awssetup\"},{\"name\":\"\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"\"},{\"name\":\"Surveys\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index?quiz_type=survey\"},{\"name\":\"About Us\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"aboutus\"}]}");
+  });
+</script><script>var coursera_enable_new_help_center = false;
+</script><div class="hide confirm-navigation modal"><div class="modal-header"><h3>Confirm Navigation</h3></div><div class="modal-body"><div class="confirm-navigation-message"></div><div>Are you sure you want to leave this page?</div></div><div class="modal-footer"><button data-modal-close="data-modal-close" class="btn confirm-navigation-stay">Stay on this Page</button><button data-modal-close="data-modal-close" class="btn btn-danger confirm-navigation-leave">Leave this Page</button></div></div><div style="display: none;" class="coursera-async-message"></div></body></html>
